@@ -51,7 +51,7 @@ class HomeView extends GetView<HomeController> {
               title = "Catalog";
               icon = Icons.document_scanner_outlined;
               onTap = () {
-                print("Open PDF");
+                print("Export PDF");
               };
               break;
             default:
